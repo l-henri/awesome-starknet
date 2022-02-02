@@ -30,7 +30,7 @@
   - [Security](#security)
   - [Examples](#examples)
   - [Educational](#educational)
-  - [Deployed on StarkNet Mainnet](#deployed-on-starknet-mainnet)
+  - [Deployed on StarkNet Mainnet](#built--deployed-on-starknet)
   - [Templates](#templates)
   - [Books](#books)
   - [Practice](#practice)
@@ -70,6 +70,7 @@
   IDE, examples and puzzles
 - [StarkNet Voting Workshop](https://starkware.notion.site/starkware/StarkNet-Voting-Workshop-b61ef5f4a62d45af86892cba3158f7e6) -
   End to end tutorial on building a voting app
+- [YouTube channel](https://www.youtube.com/channel/UCnDWguR8mE2oDBsjhQkgbvg/playlists) - Official StarkWare YouTube channel.
 
 #### Tutorials
 
@@ -79,6 +80,8 @@
 
 #### Articles
 
+- [Going all in - starknet](https://koopxyz.notion.site/going-all-in-starkware-f250983d562c454384384a5408bddf9c)
+  Notion site of helpful resources  
 - [Perama's Blog](https://perama-v.github.io/cairo/intro/) - Large set of
   educational StarkNet / Cairo resources
 - [Practical StarkNet lessons learned](https://hackmd.io/@RoboTeddy/BJZFu56wF) -
@@ -96,10 +99,13 @@
 
 #### Security
 
+- [ChainSecurity DAI Bridge Audit](https://chainsecurity.com/wp-content/uploads/2021/12/ChainSecurity_MakerDAO_StarkNet-DAI-Bridge_audit.pdf) - Audit of MakerDAO's DAI bridge by ChainSecurity.
+
 #### Examples
 
 - [Cairo by Example](https://perama-v.github.io/cairo/by-example/) - An
   introduction to [Cairo](https://www.cairo-lang.org/) with simple examples.
+- [starknet-cairo-101](https://github.com/l-henri/starknet-cairo-101) - Interactive Cairo workshop using [Voyager](https://voyager.online/) with puzzles and tokens as prizes.
 - [Skeleton for StarkNet](https://perama-v.github.io/cairo/examples/building_blocks/skeleton/program_starknet.html)
   - Quick example of a Minimum verifiable program
 - [Skeleton for SHARP](https://perama-v.github.io/cairo/examples/building_blocks/skeleton/program_sharp.html)
@@ -130,6 +136,7 @@
   Deep Neural Net PoC
 - [argent-contracts-starknet](https://github.com/argentlabs/argent-contracts-starknet) -
   [Argent](https://www.argent.xyz/)'s Account contracts
+- [briq](https://github.com/briqNFT/briq-protocol) - NFT building & composability protocol
 
 #### Templates
 
@@ -137,6 +144,8 @@
   Example usage of the Starknet Hardhat plugin.
 - [starknet-react-example](https://github.com/fracek/starknet-react-example) -
   Connect your ReactApp to StarkNet
+- [vue-stark-boil](https://github.com/dontpanicdao/vue-stark-boil) - 
+  Boilerplate for Argent-X/Vue.js.
 
 #### Books
 
@@ -153,23 +162,28 @@
 
 - [starknet.js](https://github.com/seanjameshan/starknet.js) - Javascript
   library
+- [starknet.py](https://github.com/software-mansion/starknet.py) - Python library
+- [starknet-rs](https://github.com/xJonathanLEI/starknet-rs) - Rust library
 - [starknet-hardhat-plugin](https://github.com/Shard-Labs/starknet-hardhat-plugin) -
   A plugin for integrating Starknet tools into Hardhat projects
 - [cairo-contracts](https://github.com/OpenZeppelin/cairo-contracts) -
   OpenZeppelin Contracts written in Cairo
+- [cairomate](https://github.com/a5f9t4/cairomate) - Structured, dependable legos for Starknet development. 
+- [caigo](https://github.com/dontpanicdao/caigo) - Golang Library.
 
 ## Tools
 
 #### General
-
-- [starknet-devnet](https://github.com/Shard-Labs/starknet-devnet) - Local
-  testnet
-- [nile](https://github.com/OpenZeppelin/nile) - CLI tool to develop StarkNet
-  projects written in Cairo by OpenZeppelin
-- [starkops](https://github.com/seanjameshan/starkops) - StarkNet CLI
 - [argent-x](https://github.com/argentlabs/argent-x) - Browser extension wallet
 - [cairo_kernel](https://github.com/ankitchiplunkar/cairo-jupyter) - Jupyter
   kernel for Cairo.
+- [juno](https://github.com/NethermindEth/juno) - Client (GoLang).
+- [nile](https://github.com/OpenZeppelin/nile) - CLI tool to develop StarkNet
+  projects written in Cairo by OpenZeppelin
+- [starknet-devnet](https://github.com/Shard-Labs/starknet-devnet) - Local
+  testnet
+- [starkops](https://github.com/seanjameshan/starkops) - StarkNet CLI
+- [voyager](https://voyager.online) - Block explorer.
 
 #### Utility
 
@@ -188,6 +202,8 @@
 
 - [Cairo VS Code](https://www.cairo-lang.org/docs/quickstart.html#visual-studio-code-setup) -
   VS Code syntax support for Cairo (requires manual installation)
+- [Cairo language support](https://marketplace.visualstudio.com/items?itemName=ericglau.cairo-ls) -
+  Code assistance and compile error highlighting in VS Code.
 
 ---
 
